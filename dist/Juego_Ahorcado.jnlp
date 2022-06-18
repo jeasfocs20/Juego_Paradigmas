@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Juego_Ahorcado.jnlp">
+  <information>
+    <title>Juego_Ahorcado</title>
+    <vendor>JUAN</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Juego_Ahorcado.jar" size="670412" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="juego_ahorcado.Juego_Ahorcado"  name="Juego_Ahorcado" />
+  <update check="always"/>
+</jnlp>
